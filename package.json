@@ -67,5 +67,10 @@
       "object.assign": "npm:@nolyfill/object.assign@latest",
       "object.values": "npm:@nolyfill/object.values@latest"
     }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
