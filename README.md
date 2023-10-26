@@ -64,6 +64,7 @@ Using Conventional Commits has several benefits:
   - Optionally, could be used as a git hook to enforce commit message format
 - [changelogen](https://github.com/unjs/changelogen)
   - Generate changelog from conventional commit messages
+  - Can also be used to automatically bumps version and git tag, push, release (with auto-generated release note)
 
 ### Tips
 - Write neutral mood, concise subject, ie: "add yaml auto-format on save" instead of "added auto-formatting for yaml files on file save"
