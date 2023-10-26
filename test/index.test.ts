@@ -12,4 +12,5 @@ it('fnReturn400', () => {
 
 it('logger', () => {
   expect(logger).toHaveProperty('info')
+  expect(logger).toHaveProperty('error')
 })
